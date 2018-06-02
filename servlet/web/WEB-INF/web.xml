@@ -8,6 +8,21 @@
         <servlet-class>lab5.Calc</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>Lab5_RegistrationForms</servlet-name>
+        <servlet-class>lab5.RegistrationForms</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegistrationFormsAB</servlet-name>
+        <servlet-class>lab5.RegistrationFormsAB</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Lab5_RegistrationFormsC</servlet-name>
+        <servlet-class>lab5.RegistrationFormsC</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>CalcServlet</servlet-name>
         <url-pattern>/calculator/</url-pattern>
@@ -15,5 +30,26 @@
     <servlet-mapping>
         <servlet-name>CalcServlet</servlet-name>
         <url-pattern>/calculator/result</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>Lab5_RegistrationForms</servlet-name>
+        <url-pattern>/lab5/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegistrationFormsAB</servlet-name>
+        <url-pattern>/lab5/actionA</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RegistrationFormsAB</servlet-name>
+        <url-pattern>/lab5/actionB</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Lab5_RegistrationFormsC</servlet-name>
+        <url-pattern>/lab5/actionC</url-pattern>
     </servlet-mapping>
 </web-app>
