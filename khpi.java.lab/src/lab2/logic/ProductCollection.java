@@ -10,7 +10,7 @@ public class ProductCollection extends AbstractCollection<IBaseProduct>  {
     private IBaseProduct[] products;
     private int size;
 
-    protected ProductCollection() {
+    public ProductCollection() {
         super();
         products = new IBaseProduct[10];
         size =0;
