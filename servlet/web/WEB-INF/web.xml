@@ -23,6 +23,15 @@
         <servlet-class>lab5.RegistrationFormsC</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>lab6_Products</servlet-name>
+        <servlet-class>lab6.lab6_Products</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>lab_6Registration</servlet-name>
+        <servlet-class>lab6.lab_6Registration</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>CalcServlet</servlet-name>
         <url-pattern>/calculator/</url-pattern>
@@ -51,5 +60,17 @@
     <servlet-mapping>
         <servlet-name>Lab5_RegistrationFormsC</servlet-name>
         <url-pattern>/lab5/actionC</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet-mapping>
+        <servlet-name>lab6_Products</servlet-name>
+        <url-pattern>/lab6/products</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>lab_6Registration</servlet-name>
+        <url-pattern>/lab6/registration</url-pattern>
     </servlet-mapping>
 </web-app>
