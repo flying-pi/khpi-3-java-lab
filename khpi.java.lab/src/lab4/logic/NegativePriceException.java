@@ -1,4 +1,4 @@
-package lab2.logic;
+package lab4.logic;
 
 public class NegativePriceException extends RuntimeException {
     public NegativePriceException(float price) {
